@@ -16,17 +16,18 @@ Make sure you save and require the MySQL and Inquirer npm packages in your homew
 
 The customer app works as described in the original instructions. The customer has placed the order my applicaiton.
 
-(https://Kbowen200247/week-12-bamazon/customer.png)
+(https://Kbowen200247/week-12-bamazon/images/customer.png)
 
 ### Challenge #2: Manager View
 
 The Manager app is a little different. The options within the Managerapp are View Products for Sale, View Low Inventory, Add to Inventory and Add New Product.
 
-<!-- Pictures -->
+(https://Kbowen200247/week-12-bamazon/images/manager_productsSale.png)
+(https://Kbowen200247/week-12-bamazon/images/manager_lowinventory.png)
 
 
 ### Challenge #3: Supervisor View
 
 The Supervisor App use the Departments and create the table sql. I didn't finish to product sale - it isn't yet.
 
-<!-- Pictures -->
+(https://Kbowen200247/week-12-bamazon/images/department.png)
