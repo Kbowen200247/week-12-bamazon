@@ -16,7 +16,7 @@ Make sure you save and require the MySQL and Inquirer npm packages in your homew
 
 The customer app works as described in the original instructions. The customer has placed the order my applicaiton.
 
-<!-- (https://Kbowen200247/week-12-bamazon/customer.png) -->
+(https://Kbowen200247/week-12-bamazon/customer.png)
 
 ### Challenge #2: Manager View
 
