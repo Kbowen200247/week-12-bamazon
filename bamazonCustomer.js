@@ -35,8 +35,8 @@ function inquirerToBuy(){
 		name: "units",
 		message: "How many units of the product you would like to buy?"
 	}]).then(function(answer){
-		var quantitys = answer.units;
 		var buyid = answer.id;
+		var quantitys = answer.units;
 		totalProduct(buyid, quantitys)
 	});
 };
@@ -53,11 +53,12 @@ function totalProduct(id, quntityStocks){
 			connection.query("SELECT * FROM Departments", function(err, data){
 				if (err) throw err;
 				var name;
-				for(var i = 0; i < data.length; i++){
+				for(var i = 0; i < data.length; i++){																					
 					if(data[i].department_name === id.department_name){
 						name = i;
 					}
 				}
+			// It is not work to fail because it can't read "total_profit"
 			// connection.query("UPDATE Departments SET ? WHERE ?", [
 			// 	{total_profit: data[name].total_profit + totals},
 			// 	{department_name: data[quntityStocks].department_name}

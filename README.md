@@ -30,6 +30,6 @@ The Manager app is a little different. The options within the Managerapp are Vie
 
 ### Challenge #3: Supervisor View
 
-The Supervisor App use the Departments and create the table sql. I didn't finish to product sale - it isn't yet.
+The Supervisor App uses the Departments and creates the table sql. I have not been able to finish the product sale yet, will complete soon.
 #### View Department
 <img width="800" alt="manager_productsSale" src="https://kbowen200247.github.io/week-12-bamazon/images/department.png">
